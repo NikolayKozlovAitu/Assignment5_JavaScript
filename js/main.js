@@ -1,7 +1,7 @@
 // Task 0
 console.log("Nikolay Kozlov");
 console.log("Group: SE-2529");
-alert("Hello, World!");
+alert("Hello, JavaScript World!");
 
 // Task 1
 let text = "Hello";
