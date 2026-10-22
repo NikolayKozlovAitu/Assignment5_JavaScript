@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+.navbar a.active {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box {
+    padding: 15px;
+    background-color: #e0e0e0;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+.hover-box {
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.todo-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.todo-list {
+    flex: 1;
+}
+
+.todo-form {
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-card {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
